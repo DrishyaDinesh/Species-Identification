@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Species Identifier</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/logo.png" rel="icon">
+  <link href="static/assets/img/logo.PNG" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Parisienne&family=Playball&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- FONT AWESOME ICONS -->
+  <script src="https://kit.fontawesome.com/899e3d8fdc.js" crossorigin="anonymous"></script>
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Ninestars - v4.3.0
+  * Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="{{ url_for('species_identification') }}"> <span> <img src="static/assets/img/logo1.png" alt=""></span></a></h1>
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+      <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero" style="font-size: 22px;">Home</a></li>
+          <li><a class="nav-link scrollto" href="#formsec" style="font-size: 22px;">Identify Species</a></li>
+          <li><a class="nav-link scrollto" href="#about" style="font-size: 22px;">Highlights</a></li>
+          <li><a class="nav-link scrollto" href="#services" style="font-size: 22px;">Articles</a></li>
+          <li><a class="nav-link scrollto" href="#faq" style="font-size: 22px;">FAQs</a></li>     
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header --><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Species Identifier</h1>
+          <h2>Identification of Species using DNA Barcoding, a method to recognize species using a short section of DNA from a specific gene or genes</h2>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="https://images.theconversation.com/files/72513/original/image-20150219-28204-1iw4k6l.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" class="d-block w-100" alt="...">
+        </div>
+          <!-- <img src="https://thumbs.dreamstime.com/b/motherhood-woman-baby-her-arms-breastfeeding-infant-baby-boy-flat-isolation-motherhood-woman-baby-her-arms-181395861.jpg" class="img-fluid animated" alt=""> -->
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <!-- ======= Form Section  ======= -->
+
+  <section id="formsec" class="faq section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <form action="/dna" method="POST">
+      <label class="label_dna" for="DNA Sequence">
+      </label>
+         <div class="section-title">
+        <h2 style="font-size: 30px;">Species Identification</h2>
+        <p >Enter A DNA Sequence</p>
+      </div>
+      <input  class="form-control"type="text" style="font-size:25px; font-family: 'Times New Roman', Times, serif;" id="dna" name="DNA Sequence"><br><br>
+      <!-- Submit Button -->
+   <centre> <input type="submit" style="margin-left: 480px; font-size:30px" value="Detect Species"></centre>
+  <br>
+  <br>
+  </form>
+</div>
+
+<div>
+  {% if data !=null %}
+  <div class="row ">
+    <div class="col-6 mx-auto">
+      <div class=" c card">
+        <div class="card-body">
+          <p class="card-text">
+  <h3 class="hpad" style="font-family: 'Times New Roman', Times, serif;"><b>Predicted Species:</b></h3>
+  
+  <table class="table table-bordered table2" style="font-size:20px; font-family: 'Times New Roman', Times, serif;">
+    <thead class="thead-dark">
+      <tr style="background-color:rgb(100, 23, 100); color:white;">
+        <th scope="col">Species Name</th>
+        <th scope="col">Confidence Score</th>
+      </tr>
+    </thead>
+    <tbody> 
+ 
+      {% for i,j in data %}
+        <tr class="row2">
+          <!-- <th scope="row "></th> -->
+          <td>{{ i[0] }}</td>
+          <td> <a target="_blank">{{ j }}</a></td>
+        </tr>
+        {% endfor %}  
+        {% endif %}
+  </tbody>
+  </table>
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <main id="main">
+    <!-- ======= Upload Image Section ======= -->
+    <section id="formsec" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+  
+        <form action="/image" method="POST" enctype="multipart/form-data">
+        <label class="label_dna" for="img">
+        </label>
+           <div class="section-title">
+          <h2 style="font-size: 30px;">Species Identification</h2>
+          <p >Upload an Image</p>
+        </div>
+        <input  class="form-control" type="file" style="font-size:25px; font-family: 'Times New Roman', Times, serif;" id="img" name="img"><br><br>
+        <!-- Submit Button -->
+     <centre> <input type="submit" style="margin-left: 480px; font-size:30px" value="Detect Species"></centre>
+    <br>
+    <br>
+    </form>
+  </div>
+
+  <div>
+    {% if data2 !=null %}
+    <div class="row ">
+      <div class="col-6 mx-auto">
+        <div class=" c card">
+          <div class="card-body">
+            <p class="card-text">
+    <h3 class="hpad" style="font-family: 'Times New Roman', Times, serif;"><b>Predicted Species:</b></h3>
+    
+    <table class="table table-bordered table2" style="font-size:20px; font-family: 'Times New Roman', Times, serif;">
+      <thead class="thead-dark" style="background-color:rgb(100, 23, 100); color:white;">
+        <tr style="background-color:rgb(100, 23, 100); color:white;">
+          <th scope="col">Species Name</th>
+          <th scope="col">Confidence Score</th>
+        </tr>
+      </thead>
+      <tbody> 
+   
+        {% for i,j in data2 %}
+          <tr class="row2">
+            <!-- <th scope="row "></th> -->
+            <td>{{ i }}</td>
+            <td> <a target="_blank">{{ j }}</a></td>
+          </tr>
+          {% endfor %}  
+          {% endif %}
+    </tbody>
+    </table>
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+</section>
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about about-inner" style="background-image: linear-gradient(to right bottom, #d5b0f6, #dac3f9, #e2d5fa, #ece7fa, #f8f8f8);">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-lg-4 d-flex align-items-center justify-content-center about-img">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"  style="width: 1000px; height: 800px;">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <iframe width="670" height="420" src="https://www.youtube.com/embed/zcd3QYngHX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                <div class="carousel-item">
+                    <iframe width="670" height="420" src="https://www.youtube.com/embed/HpRHhIbDFd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-item">
+                  <iframe width="670" height="420" src="https://www.youtube.com/embed/Vgl20T7HIXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                <div class="carousel-item">
+                    <iframe width="670" height="420" src="https://www.youtube.com/embed/_8QukVYqGRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+              <div class="carousel-item">
+                <iframe width="670" height="420" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+            </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0 shift">
+            <h3 data-aos="fade-up" class="high">Basic Facts</h3>
+            <p data-aos="fade-up" data-aos-delay="100" style="font-size: 25px;">
+              Biological diversity is being lost as species go extinct, and it is only by understanding species that we can shape the social, political, and financial forces that affect conservation efforts.</p>
+            <div class="row">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-hippo" style="color: #301934"></i>
+                <h4>DNA Barcoding: a step by step guide</h4>
+               
+              </div>
+             
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-dog" style="color: #301934"></i>
+                  <h4>Importance and applications Of DNA Barcoding</h4>
+                 
+                </div>
+                
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-otter" style="color: #301934"></i>
+                    <h4>DNA Barcoding database- BOLD</h4>
+                  </div>
+                  
+                  
+                 
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-fish" style="color: #301934"></i>
+                <h4>DNA Barcoding Process and Applications</h4>
+               
+              </div>
+            
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-horse" style="color: #301934"></i>
+                  <h4>DNA Barcoding of Indian animal life</h4>
+                  
+                 
+                </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+   
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 style="font-size: 30px;">Articles</h2>
+          <p>Check out some research papers on this topic</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box icon-box-inner">
+              <div class="icon"><i class="far fa-newspaper"></i></div>
+              <h4 class="title"><a href="">DNA barcoding, an effective tool for species identification: a review</a></h4>
+              <p class="description" style="font-size: 22px;">DNA barcoding is a powerful taxonomic tool to identify and discover species. DNA barcoding utilizes one or more standardized short DNA regions for taxon identification......<a href="https://link.springer.com/article/10.1007/s11033-022-08015-7"
+              > Read More</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box icon-box-inner">
+              <div class="icon"><i class="far fa-newspaper"></i></div>
+              <h4 class="title"><a href="">Multilocus DNA barcoding - Species Identification with Multilocus Data</a></h4>
+              <p class="description" style="font-size: 22px;">Current barcoding methods are usually based on a single mitochondrial locus, such as cytochrome c oxidase subunit I (COI). This type of barcoding method does not always.........<a href="https://www.nature.com/articles/s41598-017-16920-2"> Read More</a></p> </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box icon-box-inner">
+              <div class="icon"><i class="far fa-newspaper"></i></div>
+              <h4 class="title"><a href="">Biological identifications through DNA barcodes.</a></h4>
+              <p class="description" style="font-size: 22px;"> We are convinced that the sole prospect for a sustainable identification capability lies in the construction of systems that employ DNA sequences as taxon 'barcodes'. We...<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1691236/"
+              > Read More</a></p></div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box icon-box-inner">
+              <div class="icon"><i class="far fa-newspaper"></i></div>
+              <h4 class="title"><a href="">Development of DNA-based species identification and barcoding of three important timbers</a></h4>
+              <p class="description" style="font-size: 22px;">DNA barcoding technologies and large-scale screening of DNA variation in trees can.....<a href="https://bnrc.springeropen.com/articles/10.1186/s42269-019-0116-8
+                "> Read More</a></p></div>
+          </div>
+        
+          
+
+
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2 style="font-size: 30px;">F.A.Q</h2>
+            <p >Frequently Asked Questions</p>
+          </div>
+  
+          <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+  
+            <li>
+              <div data-bs-toggle="collapse" class="collapsed question" href="#faq1" style="font-size: 27px;">How does DNA barcoding help in identifying species?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                <p style="font-size: 25px;">
+                  DNA barcoding relies on sequence variation within a short and standardized region of the genome, designated as a “barcode,” to provide accurate species identification. This approach is based on the analysis of the variability within a standard DNA barcode region, which is useful to establish taxonomic relationships.</p>
+              </div>
+            </li>
+  
+            <li>
+              <div data-bs-toggle="collapse" href="#faq2" class="collapsed question" style="font-size: 27px;">Can DNA be used to distinguish between species?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                <p style="font-size: 25px;">
+                  Within the mitochondrial DNA, a gene has been widely used to help telling species apart. In most organisms, this gene accumulates mutations just at the right speed so that each species has a unique sequence.
+                </p>
+              </div>
+            </li>
+  
+            <li>
+              <div data-bs-toggle="collapse" href="#faq3" class="collapsed question" style="font-size: 27px;">How does species identification help in biodiversity conservation?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                <p style="font-size: 25px;">
+                  Accurate species identification is essential to ecological monitoring. It is used to inform and evaluate conservation actions, such as the monitoring of population trends, the implementation and evaluation of population management plans, health assessments of ecosystems and extinction analysis</p>
+              </div>
+            </li>
+  
+            <li>
+              <div data-bs-toggle="collapse" href="#faq4" class="collapsed question" style="font-size: 27px;">What can we use to identify species of organisms?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                <p style="font-size: 25px;">
+                  Identification of organisms to individual scientific names (or codes) may be based on individualistic natural body features, experimentally created individual markers (e.g., color dot patterns), or natural individualistic molecular markers (similar to those used in maternity or paternity identification tests).</p>
+              </div>
+            </li>
+          </ul>
+  
+        </div>
+      </section><!-- End F.A.Q Section --><!-- End F.A.Q Section -->
+
+   <!-- End Team Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container py-4">
+      <div class="copyright" style="font-size: 25px;">
+        &copy; Copyright <strong><span>Species Identifier</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits" style="font-size: 25px;">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
+        Designed by <a href="https://bootstrapmade.com/" style="font-size: 25px;">Team Paws & Hearts</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
